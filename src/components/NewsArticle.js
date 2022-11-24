@@ -10,7 +10,7 @@ function NewsArticle({ data }) {
         <Card.Title>{data.title}</Card.Title>
         <Card.Text>{data.description}</Card.Text>
         <Card.Text style={{ color: "red" }}>{data.author}</Card.Text>
-        <Card.Text>Last updated 3 mins ago</Card.Text>
+        <Card.Text>{data.publishedAt}</Card.Text>
       </Card>
     </>
   );
